@@ -1,0 +1,10 @@
+{
+    "name": "composer/test",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "mylib\\awesome\\":"src",
+            "utils\\":"utils"
+        }
+    }
+}
